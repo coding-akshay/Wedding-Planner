@@ -15,7 +15,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center space-x-4">
           <img
-            src="src/images/icons8-heart-64.png"
+            src="src\images\logo.png"
             alt="Logo"
             className="h-10 w-10"
           />
@@ -57,7 +57,7 @@ function Navbar() {
             <li>
               <Link
                 to="/home"
-                className="block py-3 px-6 text-white hover:text-yellow-400 text-center"
+                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
               >
                 Home
               </Link>
@@ -65,7 +65,7 @@ function Navbar() {
             <li>
               <Link
                 to="/services"
-                className="block py-3 px-6 text-white hover:text-yellow-400 text-center"
+                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
               >
                 Services
               </Link>
@@ -73,7 +73,7 @@ function Navbar() {
             <li>
               <Link
                 to="/albums"
-                className="block py-3 px-6 text-white hover:text-yellow-400 text-center"
+                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
               >
                 Albums
               </Link>
@@ -81,7 +81,7 @@ function Navbar() {
             <li>
               <Link
                 to="/portfolio"
-                className="block py-3 px-6 text-white hover:text-yellow-400 text-center"
+                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
               >
                 Portfolio
               </Link>
@@ -89,7 +89,7 @@ function Navbar() {
             <li>
               <Link
                 to="/contact"
-                className="block py-3 px-6 text-white hover:text-yellow-400 text-center"
+                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
               >
                 Contact Us
               </Link>
