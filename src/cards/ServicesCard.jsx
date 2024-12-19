@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../componets/Navbar";
+import Navbar from "../AuthenticationComponets/Navbar";
 import { Link } from "react-router-dom";
 
 const servicesData = [

@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FrontePage from '../componets/FrontePage';
-import LoginPage from '../componets/LoginPage'; 
-import SignUp from '../componets/signUp';
+
 import HomePage from '../Homepge/HomePage';
 import Services from '../pages.jsx/Services';
 import Home from '../pages.jsx/Home';
+import ChatSection from '../cards/ChatSection';
+import FrontePage from '../AuthenticationComponets/FrontePage';
+import SignUp from '../AuthenticationComponets/signUp';
+import Login from '../AuthenticationComponets/LoginPage';
 
 
 
@@ -16,11 +18,12 @@ function Mainroutes() {
     <Router>
       <Routes>
         <Route path="/" element={<FrontePage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/homepage" element={<HomePage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/chat" element={<ChatSection />} />
 
       </Routes>
     </Router>

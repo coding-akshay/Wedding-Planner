@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 w-full bg-pink-600 z-50 shadow-lg">
+    <nav className="sticky top-0 w-full bg-red-500 z-50 shadow-lg">
       {/* Navbar Container */}
       <div className="flex items-center justify-between px-6 md:px-20 h-20">
         {/* Logo */}
