@@ -30,9 +30,7 @@ function ServicesCard() {
   return (
     <>
       <Navbar />
-      <Link to="/home" className="block py-3 px-6 text-black font-semibold hover:text-gray-400">
-        Home
-      </Link>
+  
 
       <div className="px-6 md:px-20 py-10 grid justify-items-center " >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">

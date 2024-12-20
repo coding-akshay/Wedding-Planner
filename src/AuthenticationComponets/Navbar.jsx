@@ -25,7 +25,7 @@ function Navbar() {
         </div>
 
         {/* Hamburger Button for Mobile */}
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button
             onClick={toggleMenu}
             className="text-white focus:outline-none hover:text-yellow-400 transition duration-300"
@@ -49,7 +49,7 @@ function Navbar() {
 
         {/* Menu Links */}
         <div
-          className={`absolute top-20 left-0 w-full bg-pink-700 md:static md:bg-transparent md:flex md:space-x-8 md:items-center transition-all duration-300 ease-in-out ${
+          className={`absolute top-20 left-0 w-full bg-red-500 md:static md:bg-transparent md:flex md:space-x-8 md:items-center transition-all duration-300 ease-in-out ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
