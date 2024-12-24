@@ -157,7 +157,7 @@ function Review() {
             <h3 className="text-lg font-semibold mb-4">
               Orange-Events - Your Personal Wedding Planner
             </h3>
-            <p className="text-sm text-gray-600 mb-6">
+            <p className="text-sm text-gray-600 mb-6 ">
               Plan your wedding with Us. Orange-Events is your personal wedding
               planning site. Browse through the site to find vendors for your
               wedding. Explore wedding inspiration & ideas and our very popular

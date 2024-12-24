@@ -8,9 +8,11 @@ import About from "../pages.jsx/About";
 
 
 
+
 function HomePage() {
   return (
     <div>
+
       <Navbar/>
       <Card/>
       <About/>

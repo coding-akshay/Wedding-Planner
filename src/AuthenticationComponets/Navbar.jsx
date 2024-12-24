@@ -79,12 +79,12 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link
+              {/* <Link
                 to="/portfolio"
                 className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
               >
                 Portfolio
-              </Link>
+              </Link> */}
             </li>
             <li>
               <Link
