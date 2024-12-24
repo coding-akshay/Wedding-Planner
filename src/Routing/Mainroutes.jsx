@@ -13,6 +13,10 @@ import ServicesCard from '../cards/ServicesCard';
 import ServiceDetails from '../cards/ServiceDetails';
 import Venues from '../pages.jsx/Venues';
 import Photographers from '../pages.jsx/Photographers';
+import PhotographerProfileKerala from '../pages.jsx/PhotographerProfile/PhotographerProfileKerala';
+import BengaluruPhotography from '../pages.jsx/PhotographerProfile/BengaluruPhotography';
+
+
 
 
 
@@ -34,6 +38,11 @@ function Mainroutes() {
         <Route path="/service" element={<ServicesCard />} />
          <Route path="/service/venues" element={<Venues />} />
          <Route path="/service/Photographers" element={<Photographers/>} />
+         <Route path="/photographer/kerala" element={<PhotographerProfileKerala />} />
+         <Route path="/photographer/bengaluru" element={<BengaluruPhotography />} />
+        
+
+       
 
 
 <Route path="/service/:serviceName" element={<ServiceDetails />} />

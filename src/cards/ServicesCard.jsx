@@ -1,61 +1,68 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../AuthenticationComponets/Navbar";
-
+import Venues  from "../assets/events-2609526.jpg"
+import dance from "../assets/dance-5321562.jpg"
+import gold from "../assets/gold-1369453.jpg"
+import photographer from "../assets/photographer-2179204.jpg"
+import beauty from "../assets/makeup-3081015.jpg"
+import mehndi from "../assets/henna-7332084.jpg"
+import food from "../assets/kitchen-81493.jpg"
+import wedding from "../assets/woman-4081760.jpg"
 const servicesData = [
   {
     title: "Venues",
     description: "Banquet Halls, Marriage Garden / Lawn...",
-    image: "src/images/Indian Wedding Phere.jpeg",
+    url:Venues,
     bgColor: "bg-blue-200",
     category: "Venue",
   },
   {
     title: "Photographers",
     description: "Photographers",
-    image: "src/images/Indian Wedding Phere.jpeg",
+    url:photographer,
     bgColor: "bg-pink-200",
     category: "Photography",
   },
   {
     title: "Beauty",
     description: "Bridal Makeup, Family Makeup",
-    image: "src/images/Indian Wedding Phere.jpeg",
+   url:beauty,
     bgColor: "bg-red-200",
     category: "Beauty",
   },
   {
     title: "Pre Wedding Shoot",
     description: "Pre Wedding Shoot Locations",
-    image: "src/images/Indian Wedding Phere.jpeg",
+    url: wedding,
     bgColor: "bg-blue-200",
     category: "Photography",
   },
   {
     title: "Mehndi",
     description: "Mehendi Artist",
-    image: "src/images/mehndi.jpg",
+    url: mehndi,
     bgColor: "bg-yellow-200",
     category: "Beauty",
   },
   {
     title: "Jewellery & Accessories",
     description: "Jewellery, Flower Jewellery",
-    image: "src/images/jewellery.jpg",
+    url:gold,
     bgColor: "bg-yellow-100",
     category: "Fashion",
   },
   {
     title: "Food",
     description: "Catering Services, Cake",
-    image: "src/images/food.jpg",
+    url:food,
     bgColor: "bg-purple-200",
     category: "Catering",
   },
   {
     title: "Music & Dance",
     description: "DJs, Sangeet Choreographer",
-    image: "src/images/music.jpg",
+    url:dance,
     bgColor: "bg-orange-200",
     category: "Entertainment",
   },
@@ -106,7 +113,7 @@ function ServicesCard() {
                 {/* Image Section */}
                 <div>
                   <img
-                    src={service.image}
+                    src={service.url}
                     alt={service.title}
                     className="h-40 w-25 object-cover rounded-full"
                   />
