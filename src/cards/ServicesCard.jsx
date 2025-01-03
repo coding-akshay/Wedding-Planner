@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../AuthenticationComponets/Navbar";
-import Venues  from "../assets/events-2609526.jpg"
-import dance from "../assets/dance-5321562.jpg"
-import gold from "../assets/gold-1369453.jpg"
-import photographer from "../assets/photographer-2179204.jpg"
-import beauty from "../assets/makeup-3081015.jpg"
-import mehndi from "../assets/henna-7332084.jpg"
-import food from "../assets/kitchen-81493.jpg"
-import wedding from "../assets/woman-4081760.jpg"
+import Venues  from "../assets/Images/events-2609526.jpg"
+import dance from "../assets/Images/dance-5321562.jpg"
+import gold from "../assets/Images/gold-1369453.jpg"
+import photographer from "../assets/Images/photographer-2179204.jpg"
+import beauty from "../assets/Images/makeup-3081015.jpg"
+import mehndi from "../assets/Images/henna-7332084.jpg"
+import food from "../assets/Images/kitchen-81493.jpg"
+import wedding from "../assets/Images/woman-4081760.jpg"
+import Navbar from "../componets/Navbar";
 const servicesData = [
   {
     title: "Venues",

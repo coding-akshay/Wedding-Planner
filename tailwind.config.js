@@ -1,28 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      animation: {
-        'fade-in-left': 'fadeInLeft 1s ease-out',
-        'fade-in-right': 'fadeInRight 1s ease-out',
-      },
       keyframes: {
-        fadeInLeft: {
-          '0%': { opacity: 0, transform: 'translateX(-50px)' },
-          '100%': { opacity: 1, transform: 'translateX(0)' },
+        fadeInOut: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0 },
         },
-        fadeInRight: {
-          '0%': { opacity: 0, transform: 'translateX(50px)' },
-          '100%': { opacity: 1, transform: 'translateX(0)' },
-        },
+      },
+      animation: {
+        fadeInOut: 'fadeInOut 10s infinite',
       },
     },
   },
   plugins: [
-    require('tailwind-scrollbar-hide'), // Include any necessary plugins
+    require("tailwind-scrollbar-hide"), // Include any necessary plugins
   ],
 };

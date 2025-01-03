@@ -1,11 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import kerala from "../assets/kerala-6570408.jpg"
-import bengaluru from "../assets/bride-6552057.jpg"
-import bombay from "../assets/wedding-3649749.jpg"
-import gulf from "../assets/wedding-1836315.jpg"
-import koriyan from "../assets/wedding-5828757.jpg"
-import kashmir from "../assets/couple-7065652.jpg"
+import kerala from "../assets/Images/kerala-6570408.jpg"
+import bengaluru from "../assets/Images/bride-6552057.jpg"
+import bombay from "../assets/Images/wedding-3649749.jpg"
+import gulf from "../assets/Images/wedding-1836315.jpg"
+
 
 
 
@@ -24,7 +23,7 @@ function Photographers() {
     {
       id: 2,
       name: "Bengaluru Photography",
-      location: "Electronic City",
+      location: "Bengaluru",
       url:bengaluru,
       route: "/photographer/bengaluru", 
     },
@@ -42,20 +41,7 @@ function Photographers() {
         url:gulf,
         route: "/photographer/gulf", 
       },
-      {
-        id: 5,
-        name: "Koriyan Photography",
-        location: "china",
-        url:koriyan,
-        route: "/photographer/koriyan", 
-      },
-      {
-        id: 6,
-        name: "kashmir Photography",
-        location: "Manali",
-        url:kashmir,
-        route: "/photographer/kashmir", 
-      },
+      
   ];
 
   return (
@@ -69,7 +55,7 @@ function Photographers() {
       <div
         key={photographer.id}
         className="border border-gray-200 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl cursor-pointer"
-        onClick={() => navigate(photographer.route)} // Navigate to specific route
+        onClick={() => navigate(photographer.route)} 
       >
         <img
           src={photographer.url}
@@ -79,12 +65,6 @@ function Photographers() {
         <div className="p-4">
           <h2 className="text-xl font-bold">{photographer.name}</h2>
           <p className="text-sm text-gray-500">{photographer.location}</p>
-          {/* <button
-            className="bg-red-500 text-white px-4 py-2 rounded-lg mt-4 w-full hover:bg-red-700"
-            onClick={() => navigate(photographer.route)}
-          >
-            Check Profile
-          </button> */}
         </div>
       </div>
     ))}

@@ -1,11 +1,15 @@
 import React from 'react';
-import Mainroutes from './Routing/Mainroutes';
+import UserRoutes from './Routes/UserRoutes';
+import AdminRoutes from './Routes/AdminRoutes';
+
 
 
 function App() {
   return (
     <>
-      <Mainroutes />
+      <UserRoutes/>
+      <AdminRoutes/>
+
     </>
   );
 }

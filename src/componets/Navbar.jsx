@@ -15,7 +15,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center space-x-4">
           <img
-            src="src\images\logo.png"
+            src="src\assets\Images\logo.png"
             alt="Logo"
             className="h-10 w-10"
           />

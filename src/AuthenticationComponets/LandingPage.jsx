@@ -30,7 +30,7 @@ function FrontePage() {
     <div
       className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-4"
       style={{
-        backgroundImage: `url('src/images/Indian Wedding Phere.jpeg')`,
+        backgroundImage: `url('src/assets/Images/Indian Wedding Phere.jpeg')`,
       }}
     >
       <div className="text-pink-900 p-6 rounded-lg">

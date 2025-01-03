@@ -6,7 +6,7 @@ function BengaluruPhotography() {
       <h1 className="text-4xl font-bold">Bengaluru Photography</h1>
       <p className="text-lg text-gray-500">Location: Electronic, </p>
       <img
-        src="src/images/frozen-frames.jpeg"
+        src="src\assets\Images\frozen-frames.jpeg"
         alt="Bengaluru Photography"
         className="my-6 w-full max-w-2xl"
       />

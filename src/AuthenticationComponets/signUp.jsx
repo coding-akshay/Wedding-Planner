@@ -26,7 +26,7 @@ function SignUp({ closeModal, openLogin }) {
         <div
           className="hidden lg:flex lg:w-1/2 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("src/images/Indian Wedding Phere.jpeg")',
+            backgroundImage: 'url("src/assets/Images/Indian Wedding Phere.jpeg")',
           }}
         >
           <div className=" text-rose-600 p-8">
@@ -84,6 +84,7 @@ function SignUp({ closeModal, openLogin }) {
               className="p-3 border rounded-md"
               required
             />
+
             <input
               type="text"
               placeholder="Enter OTP"
@@ -92,6 +93,7 @@ function SignUp({ closeModal, openLogin }) {
               className="p-3 border rounded-md"
               required
             />
+
             <input
               type="password"
               placeholder="Password"
@@ -100,6 +102,7 @@ function SignUp({ closeModal, openLogin }) {
               className="p-3 border rounded-md"
               required
             />
+
             <input
               type="password"
               placeholder="Confirm Password"
@@ -108,6 +111,7 @@ function SignUp({ closeModal, openLogin }) {
               className="p-3 border rounded-md"
               required
             />
+            
             {/* Sign Up Button at the Bottom */}
             <button
               type="submit"

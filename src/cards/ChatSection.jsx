@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiSend } from 'react-icons/fi';
-import imojiicone from '/src/assets/icons8-smile-30.png';
-import documenticone from '/src/assets/icons8-document-64.png';
+import imojiicone from '/src/assets/Images/icons8-smile-30.png';
+import documenticone from '/src/assets/Images/icons8-document-64.png';
 import ChatNavbar from './Chatnavbar';
 
 function ChatSection() {

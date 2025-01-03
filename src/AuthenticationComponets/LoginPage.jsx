@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import { Link } from 'react-router-dom';
 function Login({ closeModal, openSignUp }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState(''); // State to handle login errors
+  const [error, setError] = useState(''); 
 
   const navigate = useNavigate(); // Hook for navigation
 
@@ -16,11 +16,11 @@ function Login({ closeModal, openSignUp }) {
 
     if (email === validEmail && password === validPassword) {
       console.log('Login Successful:', { email, password });
-      setError(''); // Clear any previous error
-      closeModal(); // Close the modal
-      navigate('/homepage'); // Navigate to homepage
+      setError(''); 
+      closeModal(); 
+      navigate('/homepage'); 
     } else {
-      setError('Invalid email or password. Please try again.'); // Display error message
+      setError('Invalid email or password. Please try again.'); 
     }
   };
 
@@ -29,7 +29,7 @@ function Login({ closeModal, openSignUp }) {
       {/* Background Image */}
       <div
         className="bg-cover bg-center"
-        style={{ backgroundImage: 'url("src/images/Indian Wedding Phere.jpeg")' }}
+        style={{ backgroundImage: 'url("src/assets/Images/Indian Wedding Phere.jpeg")' }}
       ></div>
 
       {/* Modal Content */}
