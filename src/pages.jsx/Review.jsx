@@ -5,7 +5,7 @@ function Review() {
     <div className="font-sans">
       {/* "How It Works" Section */}
       <div className="text-center py-8">
-        <h2 className="text-2xl font-semibold mb-2 text-red-600">How It Works</h2>
+        <h2 className="text-2xl font-semibold mb-2 text-pink-500">How It Works</h2>
         <p className="text-gray-700">Book the Best Verified Vendors according to your requirement in 3 Simple Steps.</p>
         
         {/* Steps */}
@@ -15,7 +15,7 @@ function Review() {
             <div className="w-16 h-16 mx-auto mb-4">
               <img src="search-icon-placeholder.png" alt="Search Icon" />
             </div>
-            <h3 className="text-red-600 font-medium">SEARCH</h3>
+            <h3 className="text-pink-500 font-medium">SEARCH</h3>
             <p className="text-sm text-gray-600">Get Quotations, Compare, And Book The Best Vendor For Your Wedding.</p>
           </div>
 
@@ -24,7 +24,7 @@ function Review() {
             <div className="w-16 h-16 mx-auto mb-4">
               <img src="select-icon-placeholder.png" alt="Select Icon" />
             </div>
-            <h3 className="text-red-600 font-medium">SELECT</h3>
+            <h3 className="text-pink-500 font-medium">SELECT</h3>
             <p className="text-sm text-gray-600">Select The Preferred Vendors And Send Your Requirements To Them.</p>
           </div>
 
@@ -33,14 +33,14 @@ function Review() {
             <div className="w-16 h-16 mx-auto mb-4">
               <img src="book-icon-placeholder.png" alt="Book Icon" />
             </div>
-            <h3 className="text-red-600 font-medium">BOOK</h3>
+            <h3 className="text-pink-500 font-medium">BOOK</h3>
             <p className="text-sm text-gray-600">Get Quotations, Compare, And Book The Best Vendor For Your Wedding.</p>
           </div>
         </div>
       </div>
 
       {/* Red Angled Section */}
-      <div className="relative bg-red-600 text-white py-12">
+      <div className="relative bg-pink-600 text-white py-12">
         <div className="absolute top-0 left-0 w-full h-10 bg-white skew-y-3 origin-top"></div>
         <div className="grid grid-cols-2 gap-4 max-w-5xl mx-auto text-center">
           <div>

@@ -18,7 +18,7 @@ function Category() {
   };
 
   return (
-    <div className="bg-red-300">
+    <div className="text-pink-700">
       {/* Hero Section */}
       <div className="relative h-[500px] overflow-hidden">
         {/* Background Image 1 */}
@@ -43,10 +43,10 @@ function Category() {
             <input
               type="text"
               placeholder="City"
-              className="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 text-black w-full sm:w-52"
+              className="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-black w-full sm:w-52"
             />
             <select
-              className="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 text-black w-full sm:w-52"
+              className="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-black w-full sm:w-52"
               value={selectedCategory}
               onChange={handleCategoryChange}
             >
@@ -62,7 +62,7 @@ function Category() {
             </select>
             <button
               onClick={handleGetStarted}
-              className="bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-600 w-full sm:w-auto"
+              className="bg-pink-500 text-white px-6 py-3 rounded-md hover:bg-pink-600 w-full sm:w-auto"
             >
               Get Started
             </button>
@@ -72,7 +72,7 @@ function Category() {
 
       {/* Features Section */}
       <div className="bg-gray-100 py-12 px-4 text-center">
-        <h2 className="text-xl sm:text-2xl font-bold text-red-500 mb-4">
+        <h2 className="text-xl sm:text-2xl font-bold text-pink-500 mb-4">
           Wedding Planning Has Never Been So Easier
         </h2>
         <p className="text-gray-600 mb-8">

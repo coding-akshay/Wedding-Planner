@@ -9,23 +9,23 @@ function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 w-full bg-red-500 z-50 shadow-lg">
+    <nav className="sticky top-0 w-full bg-pink-600 z-50 shadow-lg">
       {/* Navbar Container */}
-      <div className="flex items-center justify-between px-6 md:px-20 h-20">
-        {/* Logo */}
+      <div className="flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 h-20">
+        {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <img
-            src="src\assets\Images\logo.png"
+            src="src/assets/Images/logo.png"
             alt="Logo"
             className="h-10 w-10"
           />
-          <h1 className="text-2xl font-bold text-white tracking-wide">
+          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white tracking-wide">
             WEDDING PLANNER
           </h1>
         </div>
 
         {/* Hamburger Button for Mobile */}
-        <div className="md:hidden ">
+        <div className="md:hidden">
           <button
             onClick={toggleMenu}
             className="text-white focus:outline-none hover:text-yellow-400 transition duration-300"
@@ -49,15 +49,15 @@ function Navbar() {
 
         {/* Menu Links */}
         <div
-          className={`absolute top-20 left-0 w-full bg-red-500 md:static md:bg-transparent md:flex md:space-x-8 md:items-center transition-all duration-300 ease-in-out ${
+          className={`absolute top-16 left-0 w-full bg-pink-600 md:static md:bg-transparent md:flex md:space-x-6 md:items-center transition-all duration-300 ease-in-out ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
-          <ul className="flex flex-col md:flex-row md:space-x-8">
+          <ul className="flex flex-col md:flex-row md:space-x-6">
             <li>
               <Link
                 to="/home"
-                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
                 Home
               </Link>
@@ -65,7 +65,7 @@ function Navbar() {
             <li>
               <Link
                 to="/services"
-                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
                 Services
               </Link>
@@ -73,23 +73,23 @@ function Navbar() {
             <li>
               <Link
                 to="/albums"
-                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
                 Albums
               </Link>
             </li>
             <li>
-              {/* <Link
+              <Link
                 to="/portfolio"
-                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
                 Portfolio
-              </Link> */}
+              </Link>
             </li>
             <li>
               <Link
                 to="/contact"
-                className="block py-3 px-6 text-white  font-semibold hover:text-yellow-400 text-center"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
                 Contact Us
               </Link>

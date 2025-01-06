@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "../cards/card";
+// import Card from "../cards/card";
 import Review from "../pages.jsx/Review";
-import About from "../pages.jsx/About";
+// import About from "../pages.jsx/About";
 import Navbar from "../componets/Navbar";
 import Category from "../cards/Category";
 import Einvite from "../pages.jsx/E-invite";
