@@ -6,7 +6,8 @@ import coverimage from '../../assets/Images/wedding-1836315.jpg';
 import ChatSection from '../../cards/ChatSection';
 import Navbar from '../../componets/Navbar';
 
-function WeddingTasveer() {
+
+function HappyFaces() {
   const imageScrollRef = useRef(null);
   const [showChat, setShowChat] = useState(false);
 
@@ -31,10 +32,8 @@ function WeddingTasveer() {
         backgroundRepeat: 'no-repeat',
       }}
     >
-            <Navbar/>
-
       {showChat ? (
-        <ChatSection />
+        <ChatSection/>
       ) : (
         <div
           className="max-w-6xl mx-auto p-4 text-white"
@@ -45,14 +44,16 @@ function WeddingTasveer() {
             backgroundPosition: 'center',
           }}
         >
+                <Navbar/>
+
           <div className="bg-pink-500 bg-opacity-70 p-4 rounded">
-            <h1 className="text-3xl font-bold text-center mb-4">Wedding Tasveer</h1>
+            <h1 className="text-3xl font-bold text-center mb-4">HappyFaces</h1>
             <div className="flex justify-between items-center mb-4">
               <div className="text-center p-4">
                 <h2 className="text-lg">Wedding Photographer, Delhi NCR</h2>
-                <p className="text-gray-600 text-white">Starting Price: ₹ 50,000 On Demand</p>
+                <p className="text-gray-600 text-white">Starting Price: ₹ 35,000 On Demand</p>
                 <p className="text-gray-600 text-white">Primary Market: Delhi NCR</p>
-                <p className="text-gray-600 text-white">Reviews: 0 out of 5</p>
+                <p className="text-gray-600 text-white">Reviews: 2 out of 5</p>
               </div>
               <button
                 onClick={handleMessageClick}
@@ -123,4 +124,8 @@ function WeddingTasveer() {
   );
 }
 
-export default WeddingTasveer;
+
+
+
+
+export default HappyFaces

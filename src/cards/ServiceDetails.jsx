@@ -59,11 +59,11 @@ const servicesData = [
     category: "Entertainment",
   },
 
-  // Add all services here
+ 
 ];
 
 function ServiceDetails() {
-  const { serviceName } = useParams(); // Get the dynamic parameter from URL
+  const { serviceName } = useParams(); 
   const service = servicesData.find(
     (s) => s.title.toLowerCase().replace(/\s+/g, "-") === serviceName
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import Homeimages from "../assets/Images/henna-7332084.jpg";
+
 import GalleryImage1 from "../assets/Images/wedding-1836315.jpg";
 import GalleryImage2 from "../assets/Images/wedding-1836315.jpg";
 import GalleryImage3 from "../assets/Images/wedding-1836315.jpg";
