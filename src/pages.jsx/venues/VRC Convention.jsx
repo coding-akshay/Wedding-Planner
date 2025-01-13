@@ -7,7 +7,7 @@ import image4 from '../../assets/Images/events-2609526.jpg';
 import image5 from '../../assets/Images/events-2609526.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
 
-function SSRConventionAC() {
+function VRCConvention() {
   const [showModal, setShowModal] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
   const [viewAll, setViewAll] = useState(false);
@@ -47,9 +47,9 @@ function SSRConventionAC() {
         />
         <div className="flex justify-between items-start">
           <div>
-            <h1 className="text-2xl font-bold">SSR Convention AC</h1>
-            <p className="text-gray-600">Shamshabad, Hyderabad</p>
-            <p className="text-yellow-500 font-semibold mt-1">4.5 ⭐ (No Reviews)</p>
+            <h1 className="text-2xl font-bold"> VRCConvention</h1>
+            <p className="text-gray-600">Hyderabad</p>
+            <p className="text-yellow-500 font-semibold mt-1">4.0 ⭐ (No Reviews)</p>
           </div>
           <div>
             <p className="text-xl font-bold text-green-600">₹1000</p>
@@ -92,11 +92,11 @@ function SSRConventionAC() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="border p-4 rounded-lg">
             <h3 className="font-semibold">The Royal Mahal Banquet Hall</h3>
-            <p>Indoor - 150 Seats | 2500 Floating</p>
+            <p>Indoor - 1000 Seats | 3000 Floating</p>
           </div>
           <div className="border p-4 rounded-lg">
             <h3 className="font-semibold">Royal Galaxy Mahal Banquet Hall</h3>
-            <p>Indoor - 300 Seats | 450 Floating</p>
+            <p>Indoor - 900 Seats | 2500 Floating</p>
           </div>
         </div>
       </div>
@@ -105,8 +105,8 @@ function SSRConventionAC() {
       <div className="bg-white shadow rounded-lg p-6 mb-8">
         <h2 className="text-xl font-bold mb-4">Services Offered</h2>
         <ul className="list-disc list-inside">
-          <li>Rental Price Per Day: ₹1,000</li>
-          <li>Rental Price Per Day: ₹4,000</li>
+          <li>Rental Price Per Day: ₹1,500</li>
+          <li>Rental Price Per Day: ₹9,000</li>
         </ul>
       </div>
        {/* Amenities*/}
@@ -219,4 +219,4 @@ function SSRConventionAC() {
   );
 }
 
-export default SSRConventionAC;
+export default VRCConvention

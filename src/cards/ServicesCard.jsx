@@ -32,13 +32,13 @@ const servicesData = [
     bgColor: "bg-red-200",
     category: "Beauty",
   },
-  {
-    title: "Pre Wedding Shoot",
-    description: "Pre Wedding Shoot Locations",
-    url: wedding,
-    bgColor: "bg-blue-200",
-    category: "Photography",
-  },
+  // {
+  //   title: "Pre Wedding Shoot",
+  //   description: "Pre Wedding Shoot Locations",
+  //   url: wedding,
+  //   bgColor: "bg-blue-200",
+  //   category: "Photography",
+  // },
   {
     title: "Mehndi",
     description: "Mehendi Artist",

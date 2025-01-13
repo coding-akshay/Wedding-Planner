@@ -165,3 +165,110 @@
 // }
 
 // export default Photographers;
+/////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {/* Offerings */}
+
+       <div className="bg-white shadow rounded-lg p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">Offerings</h2>
+         <ul className="list-none mt-2">
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Nail Paint
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Hairstyling
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Draping
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Jewellery
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Mehendi
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       AirBrush Makeup
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Regular Makeup                     </li>
+                   </ul>
+      </div>
+    {/* Policies */}
+      <div className="bg-white shadow rounded-lg p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">Policies</h2>
+         <ul className="list-none mt-2">
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       75% payment on date
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       25% payment on booking
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       payment after event - 0
+                       </li>
+                       <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       cancellation policy - If the event is cancelled I will pay back the half amount in advance booking
+                     </li>
+                   </ul>
+      </div>
+       {/* Other Information */}
+      <div className="bg-white shadow rounded-lg p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">Other Information</h2>
+         <ul className="list-none mt-2">
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       brand used - Mac, pac, huda beauty, derma, kylorn
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Willing to travel to venue - Yes
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Willing to travel other indian cities - Yes
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Trial Makeup Policy - Adjusted in Final Payment
+                     </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       allowed cuisine - Both
+                     </li>
+                   </ul>
+      </div> 
+
+
+
+
+import image1 from '../../assets/Images/pexels-johana-a-2105473018-30113681.jpg';
+import image2 from '../../assets/Images/pexels-johana-a-2105473018-30113681.jpg';
+import image3 from '../../assets/Images/pexels-johana-a-2105473018-30113681.jpg';
+import image4 from '../../assets/Images/pexels-johana-a-2105473018-30113681.jpg';
+import image5 from '../../assets/Images/pexels-johana-a-2105473018-30113681.jpg';

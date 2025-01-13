@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import SSRConvention from '../../assets/Images/events-2609526.jpg';
-import image1 from '../../assets/Images/events-2609526.jpg';
+// import image1 from '../../assets/Images/pexels-sahar-photography-914616632-29151177.jpg';
 import image2 from '../../assets/Images/events-2609526.jpg';
 import image3 from '../../assets/Images/events-2609526.jpg';
 import image4 from '../../assets/Images/events-2609526.jpg';
 import image5 from '../../assets/Images/events-2609526.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
 
-function SSRConventionAC() {
+    function Shruthi() {
   const [showModal, setShowModal] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
   const [viewAll, setViewAll] = useState(false);
 
   const images = [
-    { url: image1 },
+    // { url: image1 },
     { url: image2 },
     { url: image3 },
     { url: image4 },
@@ -47,12 +47,12 @@ function SSRConventionAC() {
         />
         <div className="flex justify-between items-start">
           <div>
-            <h1 className="text-2xl font-bold">SSR Convention AC</h1>
-            <p className="text-gray-600">Shamshabad, Hyderabad</p>
-            <p className="text-yellow-500 font-semibold mt-1">4.5 ⭐ (No Reviews)</p>
+            <h1 className="text-2xl font-bold"> Shruthi</h1>
+            <p className="text-gray-600">Delhi</p>
+            <p className="text-yellow-500 font-semibold mt-1">4.0 ⭐ (No Reviews)</p>
           </div>
           <div>
-            <p className="text-xl font-bold text-green-600">₹1000</p>
+            <p className="text-xl font-bold text-green-600">₹15000</p>
             <p className="text-gray-600">Per Day</p>
             <button className="mt-4 px-4 py-2 bg-pink-500 text-white rounded-lg hover:bg-pink-600">
               REQUEST PRICING
@@ -62,7 +62,7 @@ function SSRConventionAC() {
       </div>
 
       {/* Albums Section */}
-      <div className="bg-white shadow rounded-lg p-6">
+      <div className="bg-white shadow rounded-lg p-6 mb-4">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">Albums (5)</h2>
           <button
@@ -86,57 +86,40 @@ function SSRConventionAC() {
       </div>
 
       
-      {/* Event Areas */}
-      <div className="bg-white shadow rounded-lg p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4">2 Event Areas Available</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="border p-4 rounded-lg">
-            <h3 className="font-semibold">The Royal Mahal Banquet Hall</h3>
-            <p>Indoor - 150 Seats | 2500 Floating</p>
-          </div>
-          <div className="border p-4 rounded-lg">
-            <h3 className="font-semibold">Royal Galaxy Mahal Banquet Hall</h3>
-            <p>Indoor - 300 Seats | 450 Floating</p>
-          </div>
-        </div>
-      </div>
+  
 
-      {/* Services Offered */}
-      <div className="bg-white shadow rounded-lg p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4">Services Offered</h2>
-        <ul className="list-disc list-inside">
-          <li>Rental Price Per Day: ₹1,000</li>
-          <li>Rental Price Per Day: ₹4,000</li>
-        </ul>
-      </div>
-       {/* Amenities*/}
-       <div className="bg-white shadow rounded-lg p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4">Amenities</h2>
+         {/* Offerings */}
+
+         <div className="bg-white shadow rounded-lg p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">Offerings</h2>
          <ul className="list-none mt-2">
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       10 Rooms available
+                       Nail Paint
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       10 AC Rooms
+                       Hairstyling
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       10000 Square Feet Capacity
+                       Draping
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       200 Parking
+                       Jewellery
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       Electricity Back-up
+                       Mehendi
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       Bridal Room
+                       AirBrush Makeup
                      </li>
+                     <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       Regular Makeup                     </li>
                    </ul>
       </div>
     {/* Policies */}
@@ -153,29 +136,33 @@ function SSRConventionAC() {
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       cancellation policy - No refund if cancelled before three months
+                       payment after event - 0
+                       </li>
+                       <li className="flex items-center">
+                       <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
+                       cancellation policy - If the event is cancelled I will pay back the half amount in advance booking
                      </li>
                    </ul>
       </div>
-      {/* Other Information */}
+       {/* Other Information */}
       <div className="bg-white shadow rounded-lg p-6 mb-8">
         <h2 className="text-xl font-bold mb-4">Other Information</h2>
          <ul className="list-none mt-2">
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       property type - Kalyana Mandapam, Mini hall, Convention hall, Wedding venue, Banquet Hall, Fort and Palace
+                       brand used - Mac, pac, huda beauty, derma, kylorn
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       price type - Time Based Rent
+                       Willing to travel to venue - Yes
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       decoration - Outside Decorators allowed
+                       Willing to travel other indian cities - Yes
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
-                       food - Outside food allowed
+                       Trial Makeup Policy - Adjusted in Final Payment
                      </li>
                      <li className="flex items-center">
                        <img src={Checkbox} alt="Checkbox" className="w-4 h-4 mr-2" />
@@ -219,4 +206,5 @@ function SSRConventionAC() {
   );
 }
 
-export default SSRConventionAC;
+
+export default Shruthi

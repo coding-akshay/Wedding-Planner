@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import venues from '../../assets/Images/events-2609526.jpg';
-import Auditorium from '../../assets/Images/events-2609526.jpg';
+import Auditorium from '../../assets/Images/pexels-anna-2037514238-30143697.jpg';
+import VenuesBackgroundImage from '../../assets/Images/pexels-yungsaac-2305084.jpg';
+
 
 
 const venuesData = [
@@ -24,7 +26,7 @@ const venuesData = [
     price: "₹1,000",
     capacity: "100 to 3000",
     promotion: "-5%",
-    rating: 5.0,
+    rating: 4.5,
     label: "TOP",
     url:Auditorium,
     route: '/venues/VRC-Convention', 
@@ -36,7 +38,7 @@ const venuesData = [
     price: "₹1,500",
     capacity: "100 to 600",
     promotion: "-5%",
-    rating: 5.0,
+    rating: 3.0,
     url:Auditorium,
     route: '/venues/Rajkamal-Palace', 
   },
@@ -55,12 +57,15 @@ const venuesData = [
 
 function Venues() {
   return (
-    <div className="px-6 md:px-20 py-10">
+    <div className="px-6 md:px-20 py-10 min-h-screen bg-cover bg-center"
+     style={{
+            backgroundImage: `url(${VenuesBackgroundImage})`,
+          }}>
       {/* Header Section */}
-      <div className="flex flex-col md:flex-row items-center md:items-start mb-10">
+      <div className="flex flex-col md:flex-row items-center md:items-start mb-10 text-white">
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold">Find your wedding venue</h1>
-          <p className="text-lg text-gray-700 mt-4">
+          <p className="text-lg text-white mt-4">
             Search through a vast selection of venues to find the place that
             perfectly matches your wedding vision.
           </p>
@@ -118,7 +123,7 @@ function Venues() {
             <div className="px-4 py-2 border-t">
               <Link to={venue.route}>
                 <button className="text-sm font-bold text-red-600 hover:underline">
-                  REQUEST PRICING
+                   Check availability
                 </button>
               </Link>
             </div>

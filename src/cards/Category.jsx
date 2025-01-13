@@ -53,7 +53,6 @@ function Category() {
               <option value="">Category</option>
               <option value="Venues">Venues</option>
               <option value="Photographers">Photographers</option>
-              <option value="Pre Wedding Shoot">Pre Wedding Shoot</option>
               <option value="Beauty">Beauty</option>
               <option value="Mehndi">Mehndi</option>
               <option value="Jewellery & Accessories">Jewellery & Accessories</option>
