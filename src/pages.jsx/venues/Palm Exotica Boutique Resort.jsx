@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import SSRConvention from '../../assets/Images/events-2609526.jpg';
-import image1 from '../../assets/Images/events-2609526.jpg';
-import image2 from '../../assets/Images/events-2609526.jpg';
-import image3 from '../../assets/Images/events-2609526.jpg';
-import image4 from '../../assets/Images/events-2609526.jpg';
-import image5 from '../../assets/Images/events-2609526.jpg';
+import Resort from '../../assets/Images/cia-80721_1280.jpg';
+import image1 from '../../assets/Images/concert-83527_1280.jpg';
+import image2 from '../../assets/Images/cia-80721_1280.jpg';
+import image3 from '../../assets/Images/abstract-4868599_1280.jpg';
+import image4 from '../../assets/Images/inside-3076585_1280.jpg';
+import image5 from '../../assets/Images/auditorio-de-tenerife-406452_1280.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
 
 
@@ -42,7 +42,7 @@ import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
       {/* Venue Header */}
       <div className="bg-white shadow rounded-lg p-6 mb-8">
         <img
-          src={SSRConvention}
+          src={Resort}
           alt="The Royal Mahal"
           className="rounded-lg w-full h-64 object-cover mb-4"
         />

@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Jewellerys from "../../assets/Images/gold-1369453.jpg";
-import JewelleryBackgroundImage from "../../assets/Images/gold-1369453.jpg";
+import Jewellerysicon from "../../assets/Images/accessories-5644341_1280.jpg";
+import KalyanJewellers from "../../assets/Images/sapphire-ring-2119613_1280.jpg";
+import BhimaJewellers from "../../assets/Images/wedding-2586137_1280.jpg";
+import Malabar from "../../assets/Images/jewellery-3968328_1280.jpg";
+import Reliance  from "../../assets/Images/gold-3184582_1280.jpg";  
+
+import JewelleryBackgroundImage from "../../assets/Images/bracelet-1198737_1280.jpg";
 
 const Jewelleryitem = [
   {
@@ -25,19 +31,19 @@ const Jewelleryitem = [
     promotion: "-5%",
     rating: 4.5,
     label: "TOP",
-    url:Jewellerys,
+    url:KalyanJewellers,
     route: "/jewellery-&-accessories/Kalyan-Jewellers",
   },
   {
     id: 3,
-    name: "​Bhima Jewellers",
+    name: "Bhima Jewellers",
     location: "Kompally, Hyderabad",
     price: "₹1,500",
     capacity: "100 to 600",
     promotion: "-5%",
     rating: 3.0,
-    url:Jewellerys,
-    route: "/jewellery-&-accessories/bhima-Jewellers",
+    url:BhimaJewellers,
+    route: "/jewellery-&-accessories/bhima-Jewellers"
   },
   {
     id: 3,
@@ -47,7 +53,7 @@ const Jewelleryitem = [
     capacity: "100 to 600",
     promotion: "-5%",
     rating: 3.0,
-    url:Jewellerys,
+    url:Reliance ,
     route: "/jewellery-&-accessories/reliance-Jewels",
   }, 
   {
@@ -58,7 +64,7 @@ const Jewelleryitem = [
     capacity: "100 to 600",
     promotion: "-5%",
     rating: 3.0,
-    url:Jewellerys,
+    url:Malabar,
     route: "/jewellery-&-accessories/malabar-Gold-And-Diamonds",
   },
 ];
@@ -82,7 +88,7 @@ function JewelleryAccessories() {
         </div>
         <div className="md:w-1/2 mt-6 md:mt-0">
           <img
-            src={Jewellerys} 
+            src={Jewellerysicon} 
             alt="Wedding Venue"
             className="rounded-lg shadow-lg w-full object-cover h-60"
           />

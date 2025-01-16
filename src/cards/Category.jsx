@@ -51,7 +51,7 @@ function Category() {
               onChange={handleCategoryChange}
             >
               <option value="">Category</option>
-              <option value="Venues">Venues</option>
+              <option value="Venues">Auditorium</option>
               <option value="Photographers">Photographers</option>
               <option value="Beauty">Beauty</option>
               <option value="Mehndi">Mehndi</option>

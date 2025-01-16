@@ -1,13 +1,24 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Tasveer from '../../assets/Images/photographer-5149664_1280.jpg';
+import Studio from '../../assets/Images/camera-2607298_1280.jpg';
+import Stillz from '../../assets/Images/bride-and-groom-952451_1280.jpg';
+import Clickers from '../../assets/Images/man-5919303_1280.jpg';
+import Top from '../../assets/Images/lens-6477843_1280.jpg';
+import Moment from '../../assets/Images/photographer-4788232_1280.jpg';
+import Wedding from '../../assets/Images/woman-8322091_1280.jpg';
+import Avarnya from '../../assets/Images/camera-1866947_1280.jpg';
+import Faces from '../../assets/Images/iceland-7376065_1280.jpg';
+import BackgroundImage from '../../assets/Images/camera-1362419_1280.jpg'
 
 const photographers = [
   {
     id: 1,
     title: 'Wedding Tasveer',
-    location: ' Delhi',
+    location: 'Delhi',
     price: 50000,
     route: '/photographer/WeddingTasveer',
+    url: Tasveer,
   },
   {
     id: 2,
@@ -15,55 +26,63 @@ const photographers = [
     location: 'Delhi',
     price: 40000,
     route: '/photographer/HappyStillz',
+    url: Stillz,
   },
   {
     id: 3,
     title: 'Multi Production Clickers',
-    location: 'kerala',
+    location: 'Kerala',
     price: 20000,
     route: '/photographer/Multi-Production-Clickers',
+    url: Clickers,
   },
   {
     id: 4,
     title: 'Wedding Click',
-    location: 'bangalur',
+    location: 'Bangalore',
     price: 50000,
     route: '/photographer/Wedding-Click',
+    url: Wedding,
   },
   {
     id: 5,
     title: 'Happy Moment',
-    location: 'Mumbhai',
+    location: 'Mumbai',
     price: 10000,
     route: '/photographer/Happy-Moment',
+    url: Moment,
   },
   {
     id: 6,
     title: 'Wedding Studio',
-    location: 'kolkatha',
+    location: 'Kolkata',
     price: 70000,
     route: '/photographer/Wedding-Studio',
+    url: Studio,
   },
   {
     id: 7,
     title: 'Avarnya Studio',
-    location: 'panjab',
+    location: 'Punjab',
     price: 60000,
     route: '/photographer/Avarnya-Studio',
+    url: Avarnya,
   },
   {
     id: 8,
     title: 'Happy Faces',
-    location: 'kerala',
+    location: 'Kerala',
     price: 35000,
     route: '/photographer/Happy-Faces',
+    url: Faces,
   },
   {
     id: 9,
     title: 'Top Clicks',
-    location: 'thamilnadu',
+    location: 'Tamil Nadu',
     price: 55000,
     route: '/photographer/Top-Clicks',
+    url: Top,
   },
 ];
 
@@ -85,7 +104,12 @@ function Photographers() {
   };
 
   return (
-    <div className="p-6">
+    <div
+      className="p-6 min-h-screen bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${BackgroundImage})`,
+      }}
+    >
       {/* Search Bar */}
       <div className="mb-6">
         <input
@@ -107,7 +131,7 @@ function Photographers() {
           >
             <div>
               <img
-                src={photographer.Url || '/placeholder.jpg'}
+                src={photographer.url || 'default-image-path.jpg'}
                 alt={photographer.title}
                 className="w-full h-48 object-cover"
               />
@@ -115,10 +139,10 @@ function Photographers() {
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">{photographer.title}</h3>
               <p className="text-gray-600 mb-1">{photographer.location}</p>
-              <p className="text-pink-600 font-bold mb-2">₹{photographer.price.toLocaleString('en-IN')}</p>
-              <button
-                className="bg-pink-500 text-white py-2 px-4 rounded w-full hover:bg-pink-600"
-              >
+              <p className="text-pink-600 font-bold mb-2">
+                ₹{photographer.price.toLocaleString('en-IN')}
+              </p>
+              <button className="bg-pink-500 text-white py-2 px-4 rounded w-full hover:bg-pink-600">
                 Book Now
               </button>
             </div>

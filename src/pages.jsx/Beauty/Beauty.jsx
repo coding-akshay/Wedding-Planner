@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AnilKumar from '../../assets/Images/pexels-pavel-danilyuk-7518735.jpg';
 import Shahala from '../../assets/Images/pexels-sahar-photography-914616632-29151177.jpg';
+import Chithra from '../../assets/Images/girl-1868656_1280.jpg';
+import  Bangalore from '../../assets/Images/makeup-3081015_1280.jpg';
+import Shruthi from '../../assets/Images/girl-1319114_1280.jpg';
+import Fashion from '../../assets/Images/paint-2990357_1280.jpg';
 import BeautyBackgroundImage from '../../assets/Images/pexels-jhong-pascua-1062908-3018845.jpg'; 
 
 const beautician = [
@@ -30,7 +34,7 @@ const beautician = [
     rating: 2,
     price: 18000,
     route: '/beauty/Makeup-by-chithra',
-    url: AnilKumar,
+    url: Chithra,
   },
   {
     id: 4,
@@ -39,7 +43,7 @@ const beautician = [
     rating: 1,
     price: 20000,
     route: '/beauty/Bridefactory-bangalour',
-    url: Shahala,
+    url:  Bangalore,
   },
   {
     id: 5,
@@ -48,7 +52,7 @@ const beautician = [
     rating: 2,
     price: 2000,
     route: '/beauty/Shruthi',
-    url: AnilKumar,
+    url: Shruthi,
   },
   {
     id: 6,
@@ -57,7 +61,7 @@ const beautician = [
     rating: 1,
     price: 5000,
     route: '/beauty/fashion-beauty',
-    url: Shahala,
+    url:Fashion,
   },
 ];
 

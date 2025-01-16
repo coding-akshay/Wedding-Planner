@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom";
 
 const servicesData = [
   {
-    title: "Venues",
+    title: "Auditorium",
     description: "Banquet Halls, Marriage Garden / Lawn...",
     image: "src/assets/Images/Indian Wedding Phere.jpeg",
     bgColor: "bg-blue-200",
-    category: "Venue",
+    category: "Auditorium",
   },
   {
     title: "Photographers",

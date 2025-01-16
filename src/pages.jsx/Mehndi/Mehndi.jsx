@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import BeautyBackgroundImage from '../../assets/Images/pexels-jhong-pascua-1062908-3018845.jpg';
+import BeautyBackgroundImage from '../../assets/Images/bridal-5416522_1280.jpg';
+import Ganga from '../../assets/Images/mehndi-designs-1745048_1280.jpg'
+import Vinod from '../../assets/Images/mehndi-4338423_1280.jpg'
+import Kerala from '../../assets/Images/indian-4388167_1280.jpg'
+import Traditional from '../../assets/Images/indian-wedding-3633796_1280.jpg'
 
-const AnilKumar = '/path-to-anilkumar-image.jpg';
+
 
 const MehndiArtist = [
   {
@@ -13,7 +17,7 @@ const MehndiArtist = [
     rating: 2,
     price: 15000,
     route: '/mehndi/Ganga-Mehandi-Artist',
-    url: AnilKumar,
+    url: Ganga ,
   },
   {
     id: 2,
@@ -22,7 +26,7 @@ const MehndiArtist = [
     rating: 2,
     price: 15000,
     route: '/mehndi/Vinod-Mehandi-Artist',
-    url: AnilKumar,
+    url: Vinod,
   },
   {
     id: 3,
@@ -31,7 +35,7 @@ const MehndiArtist = [
     rating: 2,
     price: 15000,
     route: '/mehndi/Kerala-Mehandi-Artist',
-    url: AnilKumar,
+    url: Kerala,
   },
   {
     id: 4,
@@ -40,7 +44,7 @@ const MehndiArtist = [
     rating: 2,
     price: 15000,
     route: '/mehndi/Traditional-Mehandi-Artist',
-    url: AnilKumar,
+    url: Traditional,
   },
 
 ];

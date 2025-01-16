@@ -12,11 +12,11 @@ import Navbar from "../componets/Navbar";
 
 const servicesData = [
   {
-    title: "Venues",
+    title: "Auditorium",
     description: "Banquet Halls, Marriage Garden / Lawn...",
     url: Venues,
     bgColor: "bg-blue-200",
-    category: "Venue",
+    category: "Auditorium",
   },
   {
     title: "Photographers",

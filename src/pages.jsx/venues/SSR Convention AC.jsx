@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import SSRConvention from '../../assets/Images/events-2609526.jpg';
-import image1 from '../../assets/Images/events-2609526.jpg';
-import image2 from '../../assets/Images/events-2609526.jpg';
-import image3 from '../../assets/Images/events-2609526.jpg';
-import image4 from '../../assets/Images/events-2609526.jpg';
-import image5 from '../../assets/Images/events-2609526.jpg';
+import SSRConvention from '../../assets/Images/auditorium-86197_1280.jpg';
+import image1 from '../../assets/Images/auditorium-103902_1280.jpg';
+import image2 from '../../assets/Images/auditorium-3079906_1280.jpg';
+import image3 from '../../assets/Images/auditorium-86197_1280.jpg';
+import image4 from '../../assets/Images/stadium-4181150_1280.jpg';
+import image5 from '../../assets/Images/violin-2606655_1280.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
 
 function SSRConventionAC() {

@@ -103,10 +103,10 @@ function UserRoutes() {
 
         {/* venus section */}
 
-        <Route path="/venues/SSR-Convention-AC" element={<SSRConventionAC />} />
-        <Route path="/venues/VRC-Convention" element={< VRCConvention/>} />
-        <Route path="/venues/Rajkamal-Palace" element={<RajkamalPalace />} />
-        <Route path="/venues/Palm-Exotica-Boutique-Resort" element={<PalmExoticaBoutiqueResort/>} />
+        <Route path="/Auditorium/SSR-Convention-AC" element={<SSRConventionAC />} />
+        <Route path="/Auditorium/VRC-Convention" element={< VRCConvention/>} />
+        <Route path="/Auditorium/Rajkamal-Palace" element={<RajkamalPalace />} />
+        <Route path="/Auditoriums/Palm-Exotica-Boutique-Resort" element={<PalmExoticaBoutiqueResort/>} />
 
       
         {/* <Route path="/photographer/:photographerName" element={<PhotographerDetails />} /> */}

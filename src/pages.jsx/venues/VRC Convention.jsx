@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import SSRConvention from '../../assets/Images/events-2609526.jpg';
-import image1 from '../../assets/Images/events-2609526.jpg';
-import image2 from '../../assets/Images/events-2609526.jpg';
-import image3 from '../../assets/Images/events-2609526.jpg';
-import image4 from '../../assets/Images/events-2609526.jpg';
-import image5 from '../../assets/Images/events-2609526.jpg';
+import VRCC from '../../assets/Images/moscow-105154_1280.jpg'
+import image1 from '../../assets/Images/kid-rock-89811_1280.jpg';
+import image2 from '../../assets/Images/valencia-960175_1280.jpg';
+import image3 from '../../assets/Images/moscow-105154_1280.jpg';
+import image4 from '../../assets/Images/seats-1645218_1280.jpg';
+import image5 from '../../assets/Images/sit-1620227_1280.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
 
 function VRCConvention() {
@@ -41,7 +41,7 @@ function VRCConvention() {
       {/* Venue Header */}
       <div className="bg-white shadow rounded-lg p-6 mb-8">
         <img
-          src={SSRConvention}
+          src={VRCC}
           alt="The Royal Mahal"
           className="rounded-lg w-full h-64 object-cover mb-4"
         />

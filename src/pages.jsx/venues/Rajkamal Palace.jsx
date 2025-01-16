@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import SSRConvention from '../../assets/Images/events-2609526.jpg';
-import image1 from '../../assets/Images/events-2609526.jpg';
-import image2 from '../../assets/Images/events-2609526.jpg';
-import image3 from '../../assets/Images/events-2609526.jpg';
-import image4 from '../../assets/Images/events-2609526.jpg';
-import image5 from '../../assets/Images/events-2609526.jpg';
+import SSRConvention from '../../assets/Images/dresden-2306937_1280.jpg';
+import image1 from '../../assets/Images/audience-1853662_1280.jpg';
+import image2 from '../../assets/Images/concert-1168356_1280.jpg';
+import image3 from '../../assets/Images/chair-4845428_1280.jpg';
+import image4 from '../../assets/Images/dresden-2306937_1280.jpg';
+import image5 from '../../assets/Images/opera-594592_1280.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
 
     function RajkamalPalace() {
