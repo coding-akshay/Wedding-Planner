@@ -72,26 +72,28 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/albums"
+                to="/AboutUs"
                 className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
-                Albums
+                About Us
               </Link>
             </li>
             <li>
               <Link
-                to="/portfolio"
+                to="/Contact"
                 className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
               >
-                Portfolio
+                Contact
               </Link>
             </li>
+          
             <li>
               <Link
-                to="/contact"
-                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
+                to="/Vendor"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base ml-96"
               >
-                Contact Us
+              
+                  ARE YOU A VENDOR?
               </Link>
             </li>
           </ul>

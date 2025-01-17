@@ -6,6 +6,7 @@ import Services from '../pages.jsx/Services';
 import Home from '../pages.jsx/Home';
 import ChatSection from '../cards/ChatSection';
 import Album from '../pages.jsx/Album';
+import AboutUs from '../pages.jsx/AboutUs';
 import ServicesCard from '../cards/ServicesCard';
 import ServiceDetails from '../cards/ServiceDetails';
 import FrontePage from '../AuthenticationComponets/LandingPage';
@@ -55,6 +56,7 @@ import VegAndSnaks from '../pages.jsx/Food/Veg And Snaks';
 import NonVeg from '../pages.jsx/Food/Non-veg';
 import Biriyani from '../pages.jsx/Food/Briyani';
 import Meels from '../pages.jsx/Food/Meels';
+import Contact from '../pages.jsx/Contact';
 
 function UserRoutes() {
   return (
@@ -67,6 +69,10 @@ function UserRoutes() {
         <Route path="/services" element={<Services />} />
         <Route path="/home" element={<Home />} />
         <Route path="/albums" element={<Album />} />
+        <Route path="/AboutUs" element={<AboutUs/>} />  
+        <Route path="/contact" element={<Contact />} />
+
+
 
         {/* chat */}
         <Route path="/chat" element={<ChatSection />} />
@@ -77,8 +83,8 @@ function UserRoutes() {
         <Route path="/service/:serviceName" element={<ServiceDetails />} />
         <Route path="/services/service/photographers" element={<Photographers />} />
         <Route path="/service/photographers" element={<Photographers />} />
-        <Route path="/services/service/venues" element={<Venues />} />
-        <Route path="/service/venues" element={<Venues />} />
+        <Route path="/services/service/auditorium" element={<Venues />} />
+        <Route path="/services/auditorium" element={<Venues />} />
         <Route path="/services/service/beauty" element={<Beauty />} />
         <Route path="/service/beauty" element={<Beauty />} />
         <Route path="/services/service/mehndi" element={<Mehndi />} />
