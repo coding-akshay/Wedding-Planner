@@ -46,7 +46,7 @@ function Contact() {
       <div>
         <h4 className="font-semibold text-gray-700">Services</h4>
         <ul>
-          <li><a href="/services" className="text-pink-500 hover:underline">Services</a></li>
+          <li><a href="/services" className="text-pink-500 hover:underline">Service</a></li>
          
         </ul>
       </div>
@@ -63,47 +63,62 @@ function Contact() {
       </div>
       {/* ////////////////// */}
       <div>
-        <h4 className="font-semibold text-gray-700">Quick Links</h4>
+        <h4 className="font-semibold text-gray-700">Beauty</h4>
         <ul>
-          <li><a href="/sitemap" className="text-pink-500 hover:underline">Sitemap</a></li>
-          <li><a href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</a></li>
-          <li><a href="/terms" className="text-pink-500 hover:underline">Terms & Conditions</a></li>
+          <li><a href="/services/service/beauty" className="text-pink-500 hover:underline">Anil Kumar</a></li>
+          <li><a href="/services/service/beauty" className="text-pink-500 hover:underline">Shahala</a></li>
+          <li><a href="/services/service/beauty" className="text-pink-500 hover:underline">Makeup by Chithra</a></li>
+          <li><a href="/services/service/beauty" className="text-pink-500 hover:underline">Bride Factory Bangalore</a></li>
+
+          
         </ul>
       </div>
       {/* /////////////////// */}
       <div>
-        <h4 className="font-semibold text-gray-700">Quick Links</h4>
+        <h4 className="font-semibold text-gray-700">Mehndi</h4>
         <ul>
-          <li><a href="/sitemap" className="text-pink-500 hover:underline">Sitemap</a></li>
-          <li><a href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</a></li>
-          <li><a href="/terms" className="text-pink-500 hover:underline">Terms & Conditions</a></li>
+          <li><a href="services/service/mehndi" className="text-pink-500 hover:underline">Ganga Mehandi Artist</a></li>
+          <li><a href="services/service/mehndi" className="text-pink-500 hover:underline">Vinod Mehandi Artist</a></li>
+          <li><a href="services/service/mehndi" className="text-pink-500 hover:underline">Kerala Mehandi Artist</a></li>
+          <li><a href="services/service/mehndi" className="text-pink-500 hover:underline">Traditional Mehandi Artist</a></li>
+
+
+          
         </ul>
       </div>
       {/* /////////////////////// */}
       <div>
-        <h4 className="font-semibold text-gray-700">Quick Links</h4>
+        <h4 className="font-semibold text-gray-700">Jewellery & Accessories</h4>
         <ul>
-          <li><a href="/sitemap" className="text-pink-500 hover:underline">Sitemap</a></li>
-          <li><a href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</a></li>
-          <li><a href="/terms" className="text-pink-500 hover:underline">Terms & Conditions</a></li>
+          <li><a href="/service/jewellery-&-accessories" className="text-pink-500 hover:underline">Joyalukkas</a></li>
+          <li><a href="/service/jewellery-&-accessories" className="text-pink-500 hover:underline">Kalyan Jewellers</a></li>
+          <li><a href="/service/jewellery-&-accessories" className="text-pink-500 hover:underline">Bhima Jewellers</a></li>
+          <li><a href="/service/jewellery-&-accessories" className="text-pink-500 hover:underline">Reliance Jewels</a></li>
+          <li><a href="/service/jewellery-&-accessories" className="text-pink-500 hover:underline">​Malabar Gold And Diamonds</a></li>
+
+        
         </ul>
       </div>
       {/* ////////////////////   */}
       <div>
-        <h4 className="font-semibold text-gray-700">Quick Links</h4>
+        <h4 className="font-semibold text-gray-700">Food</h4>
         <ul>
-          <li><a href="/sitemap" className="text-pink-500 hover:underline">Sitemap</a></li>
-          <li><a href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</a></li>
-          <li><a href="/terms" className="text-pink-500 hover:underline">Terms & Conditions</a></li>
+          <li><a href="/service/food" className="text-pink-500 hover:underline">Veg And Snaks</a></li>
+          <li><a href="/service/food" className="text-pink-500 hover:underline">Non-veg</a></li>
+          <li><a href="/service/food" className="text-pink-500 hover:underline">Biriyani</a></li>
+          <li><a href="/service/food" className="text-pink-500 hover:underline">Meels</a></li>
+
         </ul>
       </div>
       {/* ///////////////////// */}
       <div>
-        <h4 className="font-semibold text-gray-700">Quick Links</h4>
+        <h4 className="font-semibold text-gray-700">Music & Dance</h4>
         <ul>
-          <li><a href="/sitemap" className="text-pink-500 hover:underline">Sitemap</a></li>
-          <li><a href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</a></li>
-          <li><a href="/terms" className="text-pink-500 hover:underline">Terms & Conditions</a></li>
+          <li><a href="/service/music-&-dance" className="text-pink-500 hover:underline">Vedan</a></li>
+          <li><a href="/service/music-&-dance" className="text-pink-500 hover:underline">Martin Garrix</a></li>
+          <li><a href="/service/music-&-dance" className="text-pink-500 hover:underline">Fejo (rapper)</a></li>
+          <li><a href="/service/music-&-dance" className="text-pink-500 hover:underline">Mari Ferrari</a></li>
+
         </ul>
       </div>
     </div>
