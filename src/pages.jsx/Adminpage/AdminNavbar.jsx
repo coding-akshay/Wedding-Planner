@@ -62,6 +62,22 @@ function AdminNavbar() {
                 Home
               </Link>
             </li>
+            <li>
+              <Link
+                to="/Portfolio "
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
+              >
+Portfolio  </Link>
+            </li>  
+             <li>
+              <Link
+                to="/Information"
+                className="block py-3 px-4 text-white font-semibold hover:text-yellow-400 text-center md:text-sm lg:text-base"
+              >
+             Information
+             </Link>
+            </li>  
+          
          
           
           </ul>

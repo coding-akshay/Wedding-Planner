@@ -7,7 +7,6 @@ import photographer from "../assets/Images/photographer-2179204.jpg";
 import beauty from "../assets/Images/makeup-3081015.jpg";
 import mehndi from "../assets/Images/henna-7332084.jpg";
 import food from "../assets/Images/kitchen-81493.jpg";
-import wedding from "../assets/Images/woman-4081760.jpg";
 import Navbar from "../componets/Navbar";
 
 const servicesData = [

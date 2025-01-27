@@ -57,6 +57,7 @@ import NonVeg from '../pages.jsx/Food/Non-veg';
 import Biriyani from '../pages.jsx/Food/Briyani';
 import Meels from '../pages.jsx/Food/Meels';
 import Contact from '../pages.jsx/Contact';
+import Wedding from '../pages.jsx/Wedding';
 
 function UserRoutes() {
   return (
@@ -167,6 +168,8 @@ function UserRoutes() {
         <Route path="/einvite" element={<Einvite />} />
         <Route path="/einvite/:eventType" element={<Einvite />} />
         <Route path="/mehndi" element={<Henna />} />
+        <Route path="/wedding" element={<Wedding/>} />
+
       </Routes>
     </Router>
   );
