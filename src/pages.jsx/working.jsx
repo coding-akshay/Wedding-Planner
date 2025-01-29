@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Review() {
+function Working() {
   return (
     <div className="font-sans">
       {/* "How It Works" Section */}
@@ -13,7 +13,7 @@ function Review() {
           {/* Step 1 */}
           <div className="text-center">
             <div className="w-16 h-16 mx-auto mb-4">
-              <img src="search-icon-placeholder.png" alt="Search Icon" />
+              <img src="src\assets\Images\icons8-find-user-male-50.png" alt="Search Icon" />
             </div>
             <h3 className="text-pink-500 font-medium">SEARCH</h3>
             <p className="text-sm text-gray-600">Get Quotations, Compare, And Book The Best Vendor For Your Wedding.</p>
@@ -22,7 +22,7 @@ function Review() {
           {/* Step 2 */}
           <div className="text-center">
             <div className="w-16 h-16 mx-auto mb-4">
-              <img src="select-icon-placeholder.png" alt="Select Icon" />
+              <img src="src\assets\Images\icons8-cursor-50.png" alt="Select Icon" />
             </div>
             <h3 className="text-pink-500 font-medium">SELECT</h3>
             <p className="text-sm text-gray-600">Select The Preferred Vendors And Send Your Requirements To Them.</p>
@@ -31,7 +31,7 @@ function Review() {
           {/* Step 3 */}
           <div className="text-center">
             <div className="w-16 h-16 mx-auto mb-4">
-              <img src="book-icon-placeholder.png" alt="Book Icon" />
+              <img src="src\assets\Images\icons8-address-book-50.png" alt="Book Icon" />
             </div>
             <h3 className="text-pink-500 font-medium">BOOK</h3>
             <p className="text-sm text-gray-600">Get Quotations, Compare, And Book The Best Vendor For Your Wedding.</p>
@@ -102,4 +102,4 @@ function Review() {
   );
 }
 
-export default Review;
+export default Working;

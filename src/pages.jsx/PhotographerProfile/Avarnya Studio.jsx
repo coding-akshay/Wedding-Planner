@@ -24,6 +24,8 @@ function AvarnyaStudio() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -121,6 +123,7 @@ function AvarnyaStudio() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

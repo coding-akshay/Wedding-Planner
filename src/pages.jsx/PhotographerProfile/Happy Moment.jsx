@@ -24,6 +24,8 @@ function HappyMoment() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -121,6 +123,7 @@ function HappyMoment() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

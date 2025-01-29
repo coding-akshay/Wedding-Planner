@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import DJ from '../../assets/Images/dance-5321562.jpg';
 import BeautyBackgroundImage from '../../assets/Images/couple-7065652.jpg';
+import Navbar from '../../componets/Navbar';
 
 const DjArtist = [
   {
@@ -44,6 +45,8 @@ const DjArtist = [
 ];
 function MusicDance() {
   return (
+    <>
+    <Navbar/>
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
@@ -93,6 +96,7 @@ function MusicDance() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -24,6 +24,8 @@ function WeddingStudio() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -121,6 +123,7 @@ function WeddingStudio() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

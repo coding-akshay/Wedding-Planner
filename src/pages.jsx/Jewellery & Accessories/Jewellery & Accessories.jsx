@@ -8,6 +8,7 @@ import Malabar from "../../assets/Images/jewellery-3968328_1280.jpg";
 import Reliance  from "../../assets/Images/gold-3184582_1280.jpg";  
 
 import JewelleryBackgroundImage from "../../assets/Images/bracelet-1198737_1280.jpg";
+import Navbar from "../../componets/Navbar";
 
 const Jewelleryitem = [
   {
@@ -71,6 +72,8 @@ const Jewelleryitem = [
 
 function JewelleryAccessories() {
   return (
+    <>
+    <Navbar/>
     <div
       className="px-6 md:px-20 py-10 min-h-screen bg-cover bg-center"
       style={{
@@ -147,6 +150,7 @@ function JewelleryAccessories() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import { Link } from 'react-router-dom';
+
 function Login({ closeModal, openSignUp }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(''); 
 
-  const navigate = useNavigate(); // Hook for navigation
-
+  const navigate = useNavigate(); 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Hardcoded correct credentials for validation
@@ -18,62 +18,75 @@ function Login({ closeModal, openSignUp }) {
       console.log('Login Successful:', { email, password });
       setError(''); 
       closeModal(); 
-      navigate('/homepage'); 
+      navigate('/home'); 
     } else {
       setError('Invalid email or password. Please try again.'); 
     }
   };
 
   return (
-    <div className="fixed inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center z-50">
-      {/* Background Image */}
-      <div
-        className="bg-cover bg-center"
-        style={{ backgroundImage: 'url("src/assets/Images/Indian Wedding Phere.jpeg")' }}
-      ></div>
-
-      {/* Modal Content */}
-      <div className="relative bg-white p-6 rounded-md w-full max-w-sm md:max-w-md lg:max-w-lg z-10 mx-4 shadow-lg">
-        <button
-          onClick={closeModal}
-          className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-2xl"
+    <div className="fixed inset-0 bg-gray-800 bg-opacity-70 flex items-center justify-center z-50">
+      <div className="flex w-full max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden h-full lg:h-auto">
+        
+        {/* Left Section */}
+        <div
+          className="hidden lg:flex lg:w-1/2 bg-cover bg-center"
+          style={{
+            backgroundImage: 'url("src/assets/Images/Indian Wedding Phere.jpeg")',
+          }}
         >
-          &times;
-        </button>
-        <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
-
-        {/* Display error message */}
-        {error && <p className="text-red-600 text-sm mb-4 text-center">{error}</p>}
-
-        <form onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label className="block text-sm font-semibold mb-2 text-start" htmlFor="email">
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-3 border border-gray-300 rounded-md"
-              required
-            />
+          <div className="text-rose-600 p-8">
+            <h2 className="text-3xl font-bold text-black mb-4">
+              Welcome Back to Your Wedding Planner!
+            </h2>
+            <p className="text-black font-bold">
+              Sign in to access your personalized wedding planning experience.
+            </p>
           </div>
-          <div className="mb-4">
-            <label className="block text-sm font-semibold mb-2 text-start" htmlFor="password">
-              Password
-            </label>
-            <input
-              type="password"
-              id="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full p-3 border border-gray-300 rounded-md"
-              required
-            />
-          </div>
-          <div className="flex justify-between items-center">
-          <Link to="/homepage">
+        </div>
+
+        {/* Right Section */}
+        <div className="w-full lg:w-1/2 p-8 relative h-full">
+          <button
+            onClick={closeModal}
+            className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-2xl"
+          >
+            &times;
+          </button>
+          <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
+
+          {/* Display error message */}
+          {error && <p className="text-red-600 text-sm mb-4 text-center">{error}</p>}
+
+          <form onSubmit={handleSubmit}>
+            <div className="mb-4">
+              <label className="block text-sm font-semibold mb-2 text-start" htmlFor="email">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full p-3 border border-gray-300 rounded-md"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-sm font-semibold mb-2 text-start" htmlFor="password">
+                Password
+              </label>
+              <input
+                type="password"
+                id="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="w-full p-3 border border-gray-300 rounded-md"
+                required
+              />
+            </div>
+            <div className="flex justify-between items-center">
+          <Link to="/home">
               <button
                 type="submit"
                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
@@ -89,15 +102,16 @@ function Login({ closeModal, openSignUp }) {
               Close
             </button>
           </div>
-        </form>
+          </form>
 
-        <div className="mt-4 text-center">
-          <p>
-            Don't have an account?{' '}
-            <button onClick={openSignUp} className="text-red-500 hover:text-red-900">
-              Sign Up
-            </button>
-          </p>
+          <div className="mt-4 text-center">
+            <p>
+              Don't have an account?{' '}
+              <button onClick={openSignUp} className="text-red-500 hover:text-red-900">
+                Sign Up
+              </button>
+            </p>
+          </div>
         </div>
       </div>
     </div>

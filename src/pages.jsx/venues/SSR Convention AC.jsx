@@ -6,6 +6,7 @@ import image3 from '../../assets/Images/auditorium-86197_1280.jpg';
 import image4 from '../../assets/Images/stadium-4181150_1280.jpg';
 import image5 from '../../assets/Images/violin-2606655_1280.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
+import Navbar from '../../componets/Navbar';
 
 function SSRConventionAC() {
   const [showModal, setShowModal] = useState(false);
@@ -37,6 +38,8 @@ function SSRConventionAC() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="container mx-auto p-4">
       {/* Venue Header */}
       <div className="bg-white shadow rounded-lg p-6 mb-8">
@@ -216,6 +219,7 @@ function SSRConventionAC() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

@@ -24,6 +24,8 @@ function WeddingClick() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -121,6 +123,7 @@ function WeddingClick() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

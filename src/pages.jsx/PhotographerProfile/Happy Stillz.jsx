@@ -23,6 +23,8 @@ function HappyStillz() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -120,6 +122,7 @@ function HappyStillz() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

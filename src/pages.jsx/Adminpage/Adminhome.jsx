@@ -1,7 +1,9 @@
 import React from "react";
 import AdminbgImage from '../../assets/Images/hands-3113668_1280.jpg'
+import AdminFooter from "./AdminFooter";
 function AdminHome() {
   return (
+    <>
     <div className="p-6 font-sans bg-gray-50">
       {/* Header Section */}
      <div
@@ -155,11 +157,14 @@ function AdminHome() {
         <p className="text-lg text-gray-600 mb-6">
           Leverage the full suite of admin tools to deliver seamless experiences for your clients.
         </p>
-        <button className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all">
+        {/* <button className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all">
           Explore Admin Tools
-        </button>
+        </button> */}
       </div>
     </div>
+      <AdminFooter/>
+    </>
+
   );
 }
 

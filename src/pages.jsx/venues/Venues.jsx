@@ -6,6 +6,7 @@ import SSR from '../../assets/Images/auditorium-86197_1280.jpg';
 import VRC from '../../assets/Images/moscow-105154_1280.jpg'; 
 import Resort from '../../assets/Images/cia-80721_1280.jpg';
 import VenuesBackgroundImage from '../../assets/Images/pexels-yungsaac-2305084.jpg'; 
+import Navbar from "../../componets/Navbar";
 
 const venuesData = [
   {
@@ -58,6 +59,8 @@ const venuesData = [
 
 function Venues() {
   return (
+    <>
+    <Navbar/>
     <div
       className="px-6 md:px-20 py-10 min-h-screen bg-cover bg-center"
       style={{
@@ -134,6 +137,7 @@ function Venues() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 

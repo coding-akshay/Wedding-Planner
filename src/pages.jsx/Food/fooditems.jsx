@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; 
 import food from '../../assets/Images/dance-5321562.jpg';
 import FoodBackgroundImage from '../../assets/Images/couple-7065652.jpg';
+import Navbar from '../../componets/Navbar';
 
 const foodlist = [
   {
@@ -44,6 +45,8 @@ const foodlist = [
 ];
 function Fooditems() {
   return (
+    <>
+    <Navbar/>
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
@@ -93,6 +96,7 @@ function Fooditems() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

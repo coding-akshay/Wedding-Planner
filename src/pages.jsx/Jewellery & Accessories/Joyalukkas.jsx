@@ -5,6 +5,7 @@ import image2 from "../../assets/Images/fine-jewellery-4778055_1280.jpg";
 import image3 from "../../assets/Images/gems-334067_1280.jpg";
 import image4 from "../../assets/Images/heart-1521377_1280.jpg";
 import image5 from "../../assets/Images/jewellery-2412842_1280.jpg";
+import Navbar from "../../componets/Navbar";
 // import Checkbox from "../../assets/Images/icons8-checkbox-24.png";
 
 function Joyalukkas() {
@@ -40,6 +41,8 @@ function Joyalukkas() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="container mx-auto p-4">
       {/* Venue Header */}
       <div className="bg-white shadow rounded-lg p-6 mb-8">
@@ -185,6 +188,7 @@ function Joyalukkas() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

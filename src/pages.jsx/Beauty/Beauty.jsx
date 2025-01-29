@@ -7,6 +7,7 @@ import  Bangalore from '../../assets/Images/makeup-3081015_1280.jpg';
 import Shruthi from '../../assets/Images/girl-1319114_1280.jpg';
 import Fashion from '../../assets/Images/paint-2990357_1280.jpg';
 import BeautyBackgroundImage from '../../assets/Images/pexels-jhong-pascua-1062908-3018845.jpg'; 
+import Navbar from '../../componets/Navbar';
 
 const beautician = [
   {
@@ -67,6 +68,8 @@ const beautician = [
 
 function Beauty() {
   return (
+    <>
+    <Navbar/>
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
@@ -116,6 +119,7 @@ function Beauty() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

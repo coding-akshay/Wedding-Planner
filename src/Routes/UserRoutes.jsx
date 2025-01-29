@@ -58,6 +58,8 @@ import Biriyani from '../pages.jsx/Food/Briyani';
 import Meels from '../pages.jsx/Food/Meels';
 import Contact from '../pages.jsx/Contact';
 import Wedding from '../pages.jsx/Wedding';
+import Reception from '../pages.jsx/Reception';
+import Engagement from '../pages.jsx/Engagement';
 
 function UserRoutes() {
   return (
@@ -91,7 +93,7 @@ function UserRoutes() {
         <Route path="/services/service/mehndi" element={<Mehndi />} />
         <Route path="/service/mehndi" element={<Mehndi />} />
         <Route path="/services/service/mehndi" element={<Mehndi />} />
-        <Route path="/service/service/jewellery-&-accessories" element={<JewelleryAccessories />} />
+        <Route path="/services/service/jewellery-&-accessories" element={<JewelleryAccessories />} />
         <Route path="/service/jewellery-&-accessories" element={<JewelleryAccessories />} />
         <Route path="/services/service/music-&-dance" element={<MusicDance />} />
         <Route path="/service/music-&-dance" element={<MusicDance />} />
@@ -168,7 +170,10 @@ function UserRoutes() {
         <Route path="/einvite" element={<Einvite />} />
         <Route path="/einvite/:eventType" element={<Einvite />} />
         <Route path="/mehndi" element={<Henna />} />
-        <Route path="/wedding" element={<Wedding/>} />
+        <Route path="/wedding" element={<Wedding/>} /> 
+        <Route path="/reception" element={<Reception/>} /> 
+        <Route path="/engagement" element={<Engagement/>} /> 
+
 
       </Routes>
     </Router>

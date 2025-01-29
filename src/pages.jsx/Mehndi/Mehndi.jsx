@@ -6,6 +6,7 @@ import Ganga from '../../assets/Images/mehndi-designs-1745048_1280.jpg'
 import Vinod from '../../assets/Images/mehndi-4338423_1280.jpg'
 import Kerala from '../../assets/Images/indian-4388167_1280.jpg'
 import Traditional from '../../assets/Images/indian-wedding-3633796_1280.jpg'
+import Navbar from '../../componets/Navbar';
 
 
 
@@ -51,6 +52,8 @@ const MehndiArtist = [
 
 function MehndiArtists() {
   return (
+    <>
+    <Navbar/>
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
@@ -100,6 +103,7 @@ function MehndiArtists() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -8,11 +8,23 @@ function SignUp({ closeModal, openLogin }) {
   const [otp, setOtp] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const [otpSent, setOtpSent] = useState(false); // Track OTP sending state
+
+  const handleSendOtp = () => {
+    // This is where you'd call an API to send the OTP to the provided phone number
+    console.log(`Sending OTP to phone number: ${phone}`);
+    setOtpSent(true); // Mark OTP as sent
+    alert('OTP sent to your phone!');
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
       alert('Passwords do not match!');
+      return;
+    }
+    if (!otp) {
+      alert('Please enter the OTP!');
       return;
     }
     console.log('Sign Up Data', { firstName, lastName, email, phone, otp, password });
@@ -85,14 +97,25 @@ function SignUp({ closeModal, openLogin }) {
               required
             />
 
-            <input
-              type="text"
-              placeholder="Enter OTP"
-              value={otp}
-              onChange={(e) => setOtp(e.target.value)}
-              className="p-3 border rounded-md"
-              required
-            />
+            {/* OTP Section */}
+            <div className="flex items-center space-x-4">
+              <input
+                type="text"
+                placeholder="Enter OTP"
+                value={otp}
+                onChange={(e) => setOtp(e.target.value)}
+                className="p-3 border rounded-md"
+                required
+              />
+              <button
+                type="button"
+                onClick={handleSendOtp}
+                className="bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600"
+                disabled={otpSent}
+              >
+                {otpSent ? 'OTP Sent' : 'Send OTP'}
+              </button>
+            </div>
 
             <input
               type="password"

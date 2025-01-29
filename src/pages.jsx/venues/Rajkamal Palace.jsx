@@ -6,6 +6,7 @@ import image3 from '../../assets/Images/chair-4845428_1280.jpg';
 import image4 from '../../assets/Images/dresden-2306937_1280.jpg';
 import image5 from '../../assets/Images/opera-594592_1280.jpg';
 import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
+import Navbar from '../../componets/Navbar';
 
     function RajkamalPalace() {
   const [showModal, setShowModal] = useState(false);
@@ -37,6 +38,8 @@ import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="container mx-auto p-4">
       {/* Venue Header */}
       <div className="bg-white shadow rounded-lg p-6 mb-8">
@@ -216,6 +219,7 @@ import Checkbox from '../../assets/Images/icons8-checkbox-24.png';
         </div>
       )}
     </div>
+    </>
   );
 }
 export default RajkamalPalace

@@ -1,5 +1,6 @@
 import React from "react";
 import AdminNavbar from "./AdminNavbar";
+import AdminFooter from "./AdminFooter";
 
 function Information() {
   return (
@@ -150,6 +151,7 @@ function Information() {
           </button> */}
         </div>
       </div>
+      <AdminFooter/>
     </>
   );
 }

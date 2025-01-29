@@ -1,8 +1,9 @@
 import React from "react";
-import Review from "../pages.jsx/Review";
 import Navbar from "../componets/Navbar";
 import Category from "../cards/Category";
 import Einvite from "../pages.jsx/E-invite";
+import Footer from "../componets/Footer";
+import Working from "../pages.jsx/working";
 
 
 
@@ -16,8 +17,9 @@ function HomePage() {
 
       <Navbar/>
       <Category/>
-      <Review/>
+      <Working/>
       <Einvite/>
+      <Footer/>
     
      
      

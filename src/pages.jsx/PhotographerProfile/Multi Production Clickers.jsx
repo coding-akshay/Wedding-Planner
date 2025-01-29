@@ -24,6 +24,8 @@ function MultiProductionClickers() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -121,6 +123,7 @@ function MultiProductionClickers() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

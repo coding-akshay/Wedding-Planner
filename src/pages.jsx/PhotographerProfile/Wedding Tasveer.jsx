@@ -23,6 +23,8 @@ function WeddingTasveer() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -120,6 +122,7 @@ function WeddingTasveer() {
         </div>
       )}
     </div>
+  </>
   );
 }
 

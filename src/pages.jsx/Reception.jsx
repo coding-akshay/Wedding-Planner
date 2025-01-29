@@ -1,23 +1,23 @@
 import React from "react";
 import Homeimages from "../assets/Images/henna-7332084.jpg";
 
-import GalleryImage1 from "../assets/Images/india-5342927_1280.jpg";
-import GalleryImage2 from "../assets/Images/girl-4809434_1280.jpg";
-import GalleryImage3 from "../assets/Images/wedding-5816361_1280.jpg";
-import GalleryImage4 from "../assets/Images/wedding-reception-2701035_1280.jpg";
-import GalleryImage5 from "../assets/Images/wedding-7658831_1280.jpg";
-import GalleryImage6 from "../assets/Images/henna-7655255_1280.jpg";
-import GalleryImage7 from "../assets/Images/hands-5504603_1280.jpg";
+import GalleryImage1 from "../assets/Images/wedding-1836315.jpg";
+import GalleryImage2 from "../assets/Images/wedding-1836315.jpg";
+import GalleryImage3 from "../assets/Images/wedding-1836315.jpg";
+import GalleryImage4 from "../assets/Images/wedding-1836315.jpg";
+import GalleryImage5 from "../assets/Images/wedding-1836315.jpg";
+import GalleryImage6 from "../assets/Images/wedding-1836315.jpg";
+import GalleryImage7 from "../assets/Images/wedding-1836315.jpg";
 import GalleryImage8 from "../assets/Images/wedding-1836315.jpg";
 import Person1 from "../assets/Images/photographer-2179204.jpg";
 import Person2 from "../assets/Images/photographer-2179204.jpg";
 import Person3 from "../assets/Images/photographer-2179204.jpg";
 import Person4 from "../assets/Images/photographer-2179204.jpg";
 import Person5 from "../assets/Images/photographer-2179204.jpg";
-import Person6 from "../assets/Images/photographer-2179204.jpg"; 
+import Person6 from "../assets/Images/photographer-2179204.jpg";
 import Navbar from "../componets/Navbar";
 
-const Henna = () => {
+const Reception= () => {
   return (
     <div>
       <Navbar/>
@@ -51,7 +51,7 @@ const Henna = () => {
             <img
               src={GalleryImage1}
               alt="Gallery Image 1"
-              className="w-full h-full  max-h-80 rounded-lg shadow-lg"
+              className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
             />
           </div>
           <div className="text-center">
@@ -59,7 +59,7 @@ const Henna = () => {
             <img
               src={GalleryImage2}
               alt="Gallery Image 2"
-              className="w-full h-full max-w-96 max-h-80 rounded-lg shadow-lg "
+              className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
@@ -76,7 +76,7 @@ const Henna = () => {
               key={index}
               src={image}
               alt={`Gallery Image ${index + 1}`}
-              className="w-full rounded-lg shadow-lg max-h-80 max-w-96"
+              className="w-full rounded-lg shadow-lg"
             />
           ))}
         </div>
@@ -114,4 +114,4 @@ const Henna = () => {
   );
 };
 
-export default Henna;
+export default Reception

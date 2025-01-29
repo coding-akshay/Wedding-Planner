@@ -10,6 +10,7 @@ import Wedding from '../../assets/Images/woman-8322091_1280.jpg';
 import Avarnya from '../../assets/Images/camera-1866947_1280.jpg';
 import Faces from '../../assets/Images/iceland-7376065_1280.jpg';
 import BackgroundImage from '../../assets/Images/camera-1362419_1280.jpg'
+import Navbar from '../../componets/Navbar';
 
 const photographers = [
   {
@@ -104,6 +105,8 @@ function Photographers() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className="p-6 min-h-screen bg-cover bg-center"
       style={{
@@ -157,6 +160,7 @@ function Photographers() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

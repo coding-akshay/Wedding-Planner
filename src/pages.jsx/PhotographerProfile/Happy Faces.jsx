@@ -24,6 +24,8 @@ function HappyFaces() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div
       className=""
       style={{
@@ -121,6 +123,7 @@ function HappyFaces() {
         </div>
       )}
     </div>
+    </>
   );
 }
 
